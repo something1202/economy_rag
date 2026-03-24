@@ -20,6 +20,11 @@ The system will retrieve relevant entities and articles, then stream a reference
 ![Use case](Fig%202.%20Usecase.png)
 *Fig 2. Example response with inline references and knowledge graph.*
 
+Once a response is generated, users can click the **Read Aloud** button to have the answer read back using text-to-speech (TTS). This is powered by Open WebUI's built-in TTS integration, making the system fully accessible for hands-free use.
+
+![Read Aloud](Fig%203.%20TTS%20integration%20for%20Read%20Aloud.png)
+*Fig 3. TTS integration — the "Read Aloud" button converts the response to speech.*
+
 ## Architecture
 
 The pipeline executes five steps for each query:
